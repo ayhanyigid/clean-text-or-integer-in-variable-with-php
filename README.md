@@ -1,6 +1,5 @@
 Clean text or integer in variable with php
 
-
 Php ile değişken içerisinde String bir ifadeyi temizlemek veya değerlerini almak için kullanılabilir. Ayrıca tam tersi String ifadeyi de alabilirsiniz.
 
 public function clean_textint_in_variable($text,$is_int_or_text = 'int')
@@ -23,7 +22,7 @@ public function clean_textint_in_variable($text,$is_int_or_text = 'int')
 
         return $tmp;
     }
+
     
-    
-    Text : clean_textint_in_variable('Istanbul12345','text');  // Export : Istanbul 
-    Int  : clean_textint_in_variable('Istanbul12345','int');   // Export : 12345
+String : clean_textint_in_variable('Istanbul12345','text');  // Export : Istanbul 
+Int    : clean_textint_in_variable('Istanbul12345','int');   // Export : 12345
